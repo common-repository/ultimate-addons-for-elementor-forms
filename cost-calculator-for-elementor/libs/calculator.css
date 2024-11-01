@@ -1,0 +1,6 @@
+.elementor-field-calculator, .elementor-field-calculator:focus,
+.elementor-total, .elementor-total:focus {
+	font-weight: bold !important;
+    background: transparent !important;
+    border: none !important;
+}

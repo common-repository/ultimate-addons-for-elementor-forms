@@ -1,0 +1,52 @@
+.tribute-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  overflow: auto;
+  display: block;
+  z-index: 999999;
+}
+.tribute-container ul {
+  margin: 0;
+  margin-top: 2px;
+  padding: 0;
+  list-style: none;
+  background: #efefef;
+  color: #000;
+}
+.tribute-container li {
+  padding: 5px 5px;
+  cursor: pointer;
+}
+.tribute-container li.highlight {
+  background: #ddd;
+}
+.tribute-container li span {
+  font-weight: bold;
+}
+.tribute-container li.no-match {
+  cursor: default;
+}
+.tribute-container .menu-highlighted {
+  font-weight: bold;
+}
+.elementor-control-default-container {
+  width: 100%;
+}
+.elementor-cost-calculator-sync {
+  background: #d3d3d3;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+  color: #000;
+}
+.elementor-cost-calculator-sync li {
+  cursor: pointer;
+  padding: 5px;
+}
+.elementor-cost-calculator-sync li:hover {
+  opacity: 0.7;
+}
